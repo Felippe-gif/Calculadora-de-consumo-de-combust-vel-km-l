@@ -1,0 +1,9 @@
+print('\n\t\t --- CONSUMO DO COMBUSTIVEL --- \n')
+
+Tempo = int(input('Tempo :'))
+Velocidada_media_ = int(input('Velocidada_media: '))
+
+distancia = Tempo * Velocidada_media_
+litros = distancia /12
+
+print(f'LITROS :{litros:.3f}')
